@@ -25,9 +25,17 @@
 //    println(e)
 //}
 
-fun sum(x: Int, y: Int): Int {
-    return x + y
+//fun sum(x: Int, y: Int): Int {
+//    return x + y
+//}
+//fun main() {
+//    println(sum(1, 2))
+//}
+
+fun uppercaseString(text: String): String {
+    return text.uppercase()
 }
 fun main() {
-    println(sum(1, 2))
+    println(uppercaseString("hello"))
+    // HELLO
 }
