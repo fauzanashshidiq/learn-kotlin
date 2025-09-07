@@ -32,10 +32,17 @@
 //    println(sum(1, 2))
 //}
 
-fun uppercaseString(text: String): String {
-    return text.uppercase()
-}
+//fun uppercaseString(text: String): String {
+//    return text.uppercase()
+//}
+//fun main() {
+//    println(uppercaseString("hello"))
+//    // HELLO
+//}
+
 fun main() {
-    println(uppercaseString("hello"))
+    val upperCaseString = { text: String ->
+        text.uppercase() }
+    println(upperCaseString("hello"))
     // HELLO
 }
